@@ -1,0 +1,7 @@
+[Unit]
+Description=Clear-System
+[Service]
+Type=oneshot
+ExecStart=
+[Install]
+WantedBy=multi-user.target

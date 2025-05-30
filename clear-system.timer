@@ -1,0 +1,7 @@
+[Unit]
+Description=My Hello world timer
+ [Timer]
+OnCalendar=daily
+[Install]
+WantedBy=timers.target
+Unit=clear-system.service
