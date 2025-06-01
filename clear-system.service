@@ -2,6 +2,6 @@
 Description=Clear-System
 [Service]
 Type=oneshot
-ExecStart=/etc/cod-os/clear-system.sh
+ExecStart=/usr/local/bin/clear-system
 [Install]
 WantedBy=multi-user.target
