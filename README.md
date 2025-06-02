@@ -90,8 +90,8 @@ apt install code
 ```
 * Plugins VSCode
 ```
-Внутри самой IDE
-```
+code --install-extension MS-CEINTL.vscode-language-pack-ru ms-vscode.cpptools-extension-pack ms-python.python ms-python.vscode-pylance KevinRose.vsc-python-indent  vscjava.vscode-java-debug  ms-vscode.hexeditor
+``` 
 
 * Scratch 2.0 
 ```bash
