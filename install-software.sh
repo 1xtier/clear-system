@@ -10,7 +10,7 @@ InstallSW(){
     sudo apt update
     echo -e " => ${GREEN}Install packages${NORMAL}"
     sleep 3
-    sudo apt install -y pycharm-community codeblocks qtcreator default-jdk-17 fpc lazarus-ide code wine
+    sudo apt install -y pycharm-community codeblocks qtcreator default-jdk-17 fpc lazarus-ide code wine git 
     sudo snap install eclipse --classic
 }
 InstallSW2(){
