@@ -1,0 +1,9 @@
+[Unit]
+Description=-Wifi-Monitors
+Wants=wifi-monitor.timer
+
+[Service]
+Type=oneshot
+ExecStart=/etc/cod-os/check_wifi/wifi-monitor.sh
+[Install]
+WantedBy=multi-user.target

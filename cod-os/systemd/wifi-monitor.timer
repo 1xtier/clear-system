@@ -1,0 +1,8 @@
+[Unit]
+Description=Wifi-Monitors
+Requires=wifi-monitor.service
+[Timer]
+Unit=wifi-monitor.service
+OnCalendar=*-*-* *:*:00
+[Install]
+WantedBy=timers.target
