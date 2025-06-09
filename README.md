@@ -31,12 +31,10 @@ cp clear-system.sh /etc/cod-os/
 ```bash
 cp cs.sh /etc/cod-os
 ```
-* Создаем алиас
+* Command cs
 
 ```bash
-vim ~/.bashrc
-И в самый низ добавляем 
-alias cs="/etc/cod-os/./cs.sh"
+ln -s /etc/cod-os/cs.sh /usr/local/bin/cs
 ```
 ## Установка софта.
 * Wing Wing Personal
