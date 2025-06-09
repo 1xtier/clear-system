@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf /opt/backup/student.old
+mv /opt/backup/student /opt/backup/student.old
+cp -r /home/student /opt/backup/
